@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Simple web page" />
+    <meta name="author" content="Volkan Y" />
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="refresh" content="30" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon1.jpg" />
+    <title>Week4-VolkanY-homepage</title>
+  </head>
+  <!--yukarida head basligi icin de degisik meta taglari kullanildi -->
+  <body>
+    <header>
+      <nav style="text-align: right">
+        <a id="hcweb" href="https://hicoders.ch/">Home</a>
+        <a id="contact" href="./contactpage.html">Contact</a>
+      </nav>
+      <nav style="text-align: left">
+        <img id="logo" src="./hicoders.png" alt="" />
+      </nav>
+      <hr />
+      <h1 id="mainheader" style="text-align: center">
+        Welcome to HiCoders' Web Programming Course
+      </h1>
+    </header>
+    <!--header dan sonra gelen kısım semantic acidan main tagı içine alındı-->
+    <main>
+      <!--main içerisinde semantic acidan sectionlar kullanıldı-->
+
+      <section>
+        <img
+          id="mainimage"
+          width="1520"
+          height="500"
+          src="./basresim.png"
+          alt="image"
+        />
+      </section>
+      <br />
+      <table
+        class="center"
+        style="background-color: rgb(212, 209, 209); width: 1100px"
+      >
+        <tbody>
+          <tr>
+            <td>
+              <fieldset>
+                <legend>
+                  <strong id="altbaslik">What contains Web Basics?</strong>
+                </legend>
+                <summary>
+                  <ul class="liste1">
+                    <li><u>HTML5</u></li>
+                    <li><u>CSS3</u></li>
+                    <li>Visual Studio Code (<u>IDE</u>)</li>
+                    <li>Semantic Web</li>
+                    <li>Responsive Web Design</li>
+                    <li>Bootstrap CSS Framework</li>
+                    <li>Command Line Interface (<u>CLI</u>)</li>
+                    <li>Git als VCS</li>
+                    <li>Github</li>
+                    <li>
+                      IT basis & concepts (<em
+                        >computers, networks, operating systems</em
+                      >)
+                    </li>
+                  </ul>
+                </summary>
+              </fieldset>
+            </td>
+            <td>
+              <h3 style="text-align: center">
+                <strong
+                  >Our motto is: share knowledge and promote people!</strong
+                >
+              </h3>
+
+              <strong class="altbaslik">Web Basics</strong>
+              <br />
+              <br />
+              <p>
+                It is the first module of our course. This course first covers
+                the basics of web technologies. The tools required for
+                programming Ut wisi enim ad minim veniam, quis nostrud exerci
+                tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                commodo consequat. Duis autem vel eum iriure dolor in hendrerit
+                in vulputate velit esse molestie consequat,
+                <mark>
+                  vel illum dolore eu feugiat nulla facilisis at vero eros et
+                  accumsan et iusto odio dignissim qui blandit</mark
+                >
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <fieldset>
+                <details open>
+                  <summary>What Contains Web Programming?</summary>
+                  <ol class="liste2">
+                    <li>
+                      Basic Programming (<em
+                        >variables, conditions, loops, functions</em
+                      >)
+                    </li>
+                    <li>
+                      Ecma script (<em
+                        >objects, arrays, strings, template literals, dates,
+                        functional <br />programming</em
+                      >)
+                    </li>
+                    <li>Crete algorithms</li>
+                    <li>Creation and use of data models</li>
+                    <li>
+                      Working with modules (<em
+                        >separation of responsibilities, modularization</em
+                      >)
+                    </li>
+                    <li>Dom programming (<em>DOM-Api, BOM-Api</em>)</li>
+                    <li>Use of web interfaces in applications</li>
+                    <li>Use of web libararies in applications</li>
+                    <li>How to Use Tools to Find Errors (<em>Debug</em>)</li>
+                    <li>Basis of test-driven development</li>
+                  </ol>
+                </details>
+              </fieldset>
+            </td>
+            <td>
+              <strong>Web Programming</strong>
+              <br />
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet,
+                <strong>
+                  consetetur sadipscing elitr, sed diam nonumy eirmod
+                  tempor</strong
+                >
+                invidunt ut labore et dolore magna aliquyam erat, sed diam
+                voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidunt ut labore et dolore magna aliquyam erat, sed diam
+                voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                Lorem ipsum dolor sit amet.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <section>
+        <center>
+          <!--odevde CSS yasak oldugundan, metni ortalamak icin her nekadar eskimis olsa da center tagi kullanildi-->
+          <iframe
+            id="videocenter"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/VIL1VZDdx7w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </center>
+      </section>
+      <hr />
+    </main>
+    <!--contact ve iletisim bilgileri icin footer tagi kullanildi-->
+    <footer class="footer" style="background: rgb(209, 205, 205)">
+      <center>
+        <table class="table2">
+          <thead>
+            <tr>
+              <th>
+                <p><strong> Our Course Phases</strong></p>
+              </th>
+              <th>
+                <p><strong> Contact</strong></p>
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <ul style="list-style-type: circle">
+                  <li>Web Fundamentals</li>
+                  <li>Web Programming</li>
+                  <li>Fullstack Web Programming</li>
+                  <li>Capstone Project</li>
+                </ul>
+              </td>
+              <td>
+                <ul
+                  class="iletisim"
+                  style="list-style-type: none; text-align: center"
+                >
+                  <li>
+                    &#9993;<a href="mailto:info@hicoders.ch"
+                      >info@hicoders.ch</a
+                    >
+                  </li>
+                  <li id="favicon1">
+                    &#9990;<a href="+41009001010">+41009001010</a>
+                  </li>
+                  <li id="favicon2">&#10023;Schaffhauserstrasse 470,</li>
+                  <li>8052 Zürich</li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </center>
+    </footer>
+  </body>
+</html>

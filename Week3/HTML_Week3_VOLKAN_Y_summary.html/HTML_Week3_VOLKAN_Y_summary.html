@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML Tags and Attributes" />
+    <meta name="keywords" content="HTML,Tags, Attributes, Entities" />
+    <meta name="author" content="Volkan Y" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week3-Volkan-Y-summary</title>
+    <!--id ve class attributeleri düzenlendi-->
+    <style>
+      thead.renk {
+        background-color: teal;
+      }
+      #kırmızırenk {
+        color: red;
+      }
+      #renksarı {
+        background-color: yellow;
+      }
+      #renkgri {
+        background-color: rgb(224, 220, 220);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>WP 2021 - Hafta 03 - Ödev</h1>
+    </header>
+    <!--başlıktan sonra kalan kısım main tagı içine alındı-->
+    <main>                                     
+      <!--main içerisinde sectionlar kullanıldı-->
+      <section>
+        <p>
+          Bu haftaki derste daha fazla <mark>HTML Attribüt</mark>lerini tanıdık
+          ve biraz daha detaylarına baktık ve <mark>HTML Entities</mark>'ler ile
+          <br />
+          tanıştık. Ayrıca <strong><u>form</u></strong> ve kullanıcıların bilgi
+          girebilmesi için <strong><u>input</u></strong> elemanlarını tanıdık.
+          Aşağıda "Hafta 04 <br />
+          Konseptler ve Linkler" bölümünde bu hafta işlediklerimizi özet olarak
+          bulabilirsiniz.
+        </p>
+        <hr style="width: 50%; text-align: left; margin-left: 0" />
+      </section>
+
+      <section>
+        <fieldset style="width: 48%; text-align: left; margin-left: 0">
+          <legend>
+            <strong><mark>HATIRLATMA</mark></strong>
+          </legend>
+          <details open>
+            <summary id="kırmızırenk">OKU BENİ...</summary>
+            <!--bağımsız bir içerik olduğu için article tagı kullanıldı-->
+            <article>
+              <p>
+                <strong>
+                  Teori derslerinde gördüğünüz konuların dışında kendiniz de
+                  ayrıca araştırma yapıp tag ve <br />
+                  attribute'leri öğreniniz
+                </strong>
+              </p>
+
+              <p>Ölçü olarak, alttaki dağılımı referans alabilirsiniz.</p>
+
+              <ul>
+                <li><em>25% Teori</em></li>
+                <li><em>20% Pratik</em></li>
+                <li><em>25% Ödev</em></li>
+                <li><em>30% Kendi başınıza araştırma</em></li>
+              </ul>
+            </article>
+          </details>
+        </fieldset>
+      </section>
+
+      <br />
+
+      <section>
+        <fieldset style="width: 48%; text-align: left; margin-left: 0">
+          <legend><strong>Hafta 04 Konseptler ve Linkler</strong></legend>
+
+          <details open>
+            <summary>Göster...</summary>
+            <article>
+              <ul>
+                <li><strong> HTML Tag'leri</strong></li>
+                <ul style="list-style-type: circle">
+                  <li>
+                    form/input/select/textarea/label/button/fieldset/legend
+                  </li>
+                  <li>
+                    audio, progress, meter, textarea, video, map, select, option
+                  </li>
+                  <li>meta</li>
+                  <ul style="list-style-type: square">
+                    <li>
+                      meta tag kullanım örnekleri:
+                      <a
+                        href="https://gist.github.com/kevinSuttle/1997924"
+                        target="_blank"
+                        >https://gist.github.com/kevinSuttle/1997924
+                      </a>
+                    </li>
+                  </ul>
+                  <li>embed, iframe</li>
+                  <li>
+                    Daha fazlası:
+                    <a href="https://html.com/tags/" target="_blank"
+                      >html.com/tags
+                    </a>
+                  </li>
+                </ul>
+                <li><strong> HTML Attribütleri</strong></li>
+                <ul style="list-style-type: circle">
+                  <li>Global</li>
+                  <ul style="list-style-type: square">
+                    <li>
+                      id, class, title, style, data-*, hidden, lang, tabindex,
+                      contenteditable
+                    </li>
+                    <li>Event Handlers</li>
+                    <ul>
+                      <li>
+                        onclick, onfocus, onchange, onmouseout, onmouseover,
+                        ondblclick
+                      </li>
+                    </ul>
+                    <li>
+                      Daha fazlası:
+                      <a
+                        href="https://developer.mozilla.org/en-US/"
+                        target="_blank"
+                        >Dev Mozilla Reference
+                      </a>
+                    </li>
+                  </ul>
+                  <li>Tag spesifik</li>
+                  <ul style="list-style-type: square">
+                    <li>
+                      src, alt, href, target, type, autofocus, autocopmlete,
+                      placeholder
+                    </li>
+                    <li>
+                      pattern, placeholder, min, max, size, minlength,
+                      maxlength, name, readonly, required, <br />spellcheck,
+                      value, ...
+                    </li>
+                    <li>loop, autoplay, muted, played, buffered</li>
+                    <li>
+                      Teori slaytlarına ve HTML.com/attributes'a kullanım
+                      kontex'leri ve daha fazlası için <br />
+                      bakınız
+                    </li>
+                  </ul>
+                  <li>
+                    Daha fazlası:
+                    <a href="https://html.com/attributes/" target="_blank"
+                      >html.com/attributes
+                    </a>
+                  </li>
+                </ul>
+                <li><strong> HTML Entity'leri</strong></li>
+                <ul>
+                  <li>
+                    &#128169; , &#128521; , &#128584; , &#10967;, &#128526;
+                  </li>
+                  <li>
+                    Karakter referans sayfası:
+                    <a
+                      href="https://www.w3schools.com/html/html_entities.asp"
+                      target="_blank"
+                      >HTML Entities Interactive Reference
+                    </a>
+                  </li>
+                </ul>
+              </ul>
+            </article>
+          </details>
+        </fieldset>
+      </section>
+
+      <hr style="width: 50%; text-align: left; margin-left: 0" />
+      <br /><br /><br />
+
+      <section>
+        <table
+          border="1"
+          bordercolor="blue"
+          frame="below"
+          rules="none"
+          style="
+            width: 50%;
+            text-align: left;
+            margin-left: 0;
+            border-collapse: separate;
+            border-spacing: 5px;
+          "
+        >
+          <caption>
+            İsviçre'de bazı kantonlar ile ilgili bilgiler
+          </caption>
+
+          <thead class="renk">
+            <tr>
+              <th style="text-align: center; width: 25%">İsim</th>
+              <th>Kısaltma</th>
+              <th>En büyük şehri</th>
+              <th style="text-align: center; width: 15%">Nüfusu</th>
+              <th>Konuşulan dil</th>
+              <th>Bayrağı</th>
+              <th>Sayfası</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Zürich</td>
+              <td>ZH</td>
+              <td>Zürich</td>
+              <td>1'504'346</td>
+              <td>Almanca</td>
+              <td>
+                <figure>
+                  <img
+                    src="./zürichbayragi.png"
+                    width="25"
+                    height="25"
+                    alt="Zürich bayragi"
+                  />
+                </figure>
+              </td>
+              <td>
+                <a href="https://www.zh.ch/de.html" target="_blank">zh.ch</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Cenevre</td>
+              <td>GE</td>
+              <td>Cenevre</td>
+              <td>495'249</td>
+              <td>Fransızca</td>
+              <td>
+                <figure>
+                  <img
+                    src="./cenevrebayragi.png"
+                    width="25"
+                    height="25"
+                    alt="Cenevre bayragi"
+                  />
+                </figure>
+              </td>
+              <td><a href="https://www.ge.ch/" target="_blank">ge.ch</a></td>
+            </tr>
+
+            <tr>
+              <td>Bern</td>
+              <td>BE</td>
+              <td>Bern</td>
+              <td>1'031'126</td>
+              <td>Almanca, <br />Fransızca</td>
+              <td>
+                <figure>
+                  <img
+                    src="./bernbayragi.png"
+                    width="25"
+                    height="25"
+                    alt="Bern bayragi"
+                  />
+                </figure>
+              </td>
+              <td><a href="https://www.be.ch/" target="_blank">be.ch</a></td>
+            </tr>
+
+            <tr id="renkgri">
+              <td colspan="7">...</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td id="renksarı" colspan="3" style="text-align: center">
+                Toplam Nüfus
+              </td>
+              <td colspan="4">8'039'060</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
